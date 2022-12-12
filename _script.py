@@ -6,7 +6,7 @@ def populate(shelf_instance):
     sheet = file['Sheet1']
 
     for row in sheet.values:
-        if row[0] == 'name' and row[1] == 'isbn' and row[2] == 'author':
+        if row[0] == 'NAME' and row[1] == 'AUTHOR' and row[2] == 'ISBN':
             continue
 
         else:
